@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: .7rem;
+}
+
+.header>h1 {
+    margin-right: 2%;
+}
+
+.header>h1>a {
+    text-decoration: none;
+}
+
+.header>figure {
+    width: 100%;
+    max-width: 50px;
+    margin-right: auto;
+    margin-left: 1vw;
+}
+
+.header>figure>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 480px) {
+    .header>figure{
+        position: absolute;
+        left: -500vw
+    }
+    .header {
+        justify-content: center;
+    }
+    .header>h1{
+        padding: 1vh 2vw 1vh 2vw
+    }
+}
