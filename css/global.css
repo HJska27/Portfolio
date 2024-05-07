@@ -1,7 +1,7 @@
 .header {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     font-size: .7rem;
 }
@@ -11,7 +11,9 @@
 }
 
 .header>h1>a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
+    color: black;
 }
 
 .header>figure {
@@ -28,14 +30,17 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .header>figure{
+    .header>figure {
         position: absolute;
         left: -500vw
     }
+
     .header {
         justify-content: center;
     }
-    .header>h1{
+
+    .header>h1 {
         padding: 1vh 2vw 1vh 2vw
     }
 }
+
