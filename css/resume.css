@@ -2,6 +2,26 @@ body {
     background-color: blanchedalmond;
 }
 
-h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.top {
+    display: flex;
+    flex-flow: row wrap;
 }
+
+.corner {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 10%;
+    position: relative;
+    right: -80%;
+}
+
+.name {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.j {
+    font-size: xx-large;
+}
+
