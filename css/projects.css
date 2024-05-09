@@ -8,6 +8,8 @@ body {
     justify-content: space-around;
     flex-flow: row;
     align-items: center;
+
+    padding: 200px;
 }
 
 .main a {
@@ -28,3 +30,29 @@ body {
     opacity: 0
 }
 
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.zen {
+    margin-top: 35%;
+    margin-right: 250px;
+}
+
+.jurrasic {
+    padding: 20%;
+}
+
+.certficate {
+    position: relative;
+    right: -30%;
+}
+
+.budget {
+    margin-right: 150px;
+}
+
+.sushi {
+    position: relative;
+    right: 1000px;
+}
