@@ -1,3 +1,28 @@
 body {
     background-color: blanchedalmond;
 }
+
+.main {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+
+.main a {
+    max-width: 250px;
+}
+
+.main a img {
+    position: relative;
+    height: 250px;
+    transition: all 1s;
+}
+
+.main a p {
+    position: relative;
+    color: white;
+    transition: all 1s;
+    background-color: black;
+}
