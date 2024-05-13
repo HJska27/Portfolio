@@ -1,5 +1,6 @@
-body {
+html, body {
     background-color: blanchedalmond;
+    height: 2000px;
 }
 
 .cmeet {
@@ -9,3 +10,12 @@ body {
 .meet {
     font-size: 900px;
 }
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 40%;
+
+}
+

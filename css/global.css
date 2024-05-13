@@ -13,7 +13,7 @@
 .header>h1>a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .header>figure {
@@ -44,3 +44,7 @@
     }
 }
 
+.header>h1:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
