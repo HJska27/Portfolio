@@ -1,21 +1,59 @@
 html, body {
     background-color: blanchedalmond;
-    height: 2000px;
-}
-
-.cmeet {
-    margin-top: -900px;
+    height: 2100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .meet {
-    font-size: 900px;
+    margin-top: -1px;
+    font-size: 490px;
 }
 
-.info {
+* {
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+ul {
+    position: absolute;
+    right: 5%;
+    top: 100vh;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    width: 40%;
-
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
+ul li {
+    height: 4rem;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    justify-content: flex-end;
+}
+
+ul li span {
+    display: block;
+    line-height: 4rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    transform: translateY(200%);
+    margin: 0.05rem;
+}
+
+ul li span.active {
+    transform: translateY(0%);
+    transition: all 250ms ease-out;
+}
+
+
+
+.gap {
+    width: 1rem;
+}
+
+.link span:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
